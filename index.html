@@ -1,140 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ammar Kafle | Full-Stack Developer</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Kafle | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navbar -->
-  <header>
+    <!-- Header -->
+    <header class="hero">
+        <h1>Ammar Kafle</h1>
+        <p>Web Developer • Designer • Learner</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </header>
+
+    <!-- Navbar -->
     <nav class="navbar">
-      <h1 class="logo">Ammar<span>.</span></h1>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="themeToggle">🌙</button></li>
+        </ul>
     </nav>
-  </header>
 
-  <!-- Home -->
-  <section id="home" class="home">
-    <div class="home-content">
-      <img src="profile.jpg" alt="Ammar Kafle" class="profile-pic" />
-      <h2>Hi, I'm <span>Ammar Kafle</span></h2>
-      <h3>Aspiring Software Engineer | Full-Stack Developer</h3>
-      <p>I build modern, scalable backend-focused applications with clean and efficient code.</p>
-      <div class="home-buttons">
-        <a href="#about" class="btn">About Me</a>
-        <a href="#portfolio" class="btn secondary">Projects</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="section">
-    <h2 class="section-title">About Me</h2>
-    <div class="about-content">
-      <p>
-        I’m <strong>Ammar Kafle</strong>, born on 23/10/2005, currently 20 years old and living in
-        Butwal-11, Sub-metropolitan City, Rupandehi, Nepal.
-      </p>
-      <p>
-        I completed my +2 in Management with Mathematics and Computer Science from
-        <strong>Shanti Namuna Secondary School</strong>, Tilottma-5, Manigram (2025) with a GPA of 3.71.
-      </p>
-      <p>
-        I have applied to the <strong>University of Canberra, Australia</strong> for a
-        Bachelor in Software Engineering.
-      </p>
-      <p>
-        I completed 3 months of backend and 3 months of frontend training at
-        <strong>HUB IT Solution, Butwal</strong>, learning Java, JavaScript, HTML, CSS, PHP, C, and C++.
-      </p>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills" class="section dark">
-    <h2 class="section-title">Skills</h2>
-    <div class="skills-container">
-      <div class="skill">
-        <span>HTML</span>
-        <div class="progress"><div style="width: 90%"></div></div>
-      </div>
-      <div class="skill">
-        <span>CSS</span>
-        <div class="progress"><div style="width: 85%"></div></div>
-      </div>
-      <div class="skill">
-        <span>JavaScript</span>
-        <div class="progress"><div style="width: 75%"></div></div>
-      </div>
-      <div class="skill">
-        <span>Java</span>
-        <div class="progress"><div style="width: 80%"></div></div>
-      </div>
-      <div class="skill">
-        <span>PHP</span>
-        <div class="progress"><div style="width: 70%"></div></div>
-      </div>
-      <div class="skill">
-        <span>C / C++</span>
-        <div class="progress"><div style="width: 65%"></div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section id="portfolio" class="section">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>Bank Management System</h3>
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
         <p>
-          A backend-based Java project for managing bank accounts, transactions,
-          and user data with secure logic and structured design.
+            I am a passionate web developer who enjoys building clean, modern,
+            and responsive websites. I love learning new technologies and
+            turning ideas into real-world projects.
         </p>
-        <span class="tech">Java</span>
-      </div>
+    </section>
 
-      <div class="project-card">
-        <h3>Bike Rental Management System</h3>
-        <p>
-          Java-based backend application to manage bike rentals, customers,
-          availability, and rental history.
-        </p>
-        <span class="tech">Java</span>
-      </div>
-    </div>
-  </section>
+    <!-- Skills -->
+    <section id="skills" class="section dark">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">Basic Java</div>
+        </div>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section dark">
-    <h2 class="section-title">Contact</h2>
-    <div class="contact-content">
-      <p>Email: <a href="mailto:ammarkafle.edu@gmail.com">ammarkafle.edu@gmail.com</a></p>
-      <p>Location: Butwal, Nepal</p>
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio using HTML, CSS, and JS.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Landing Page</h3>
+                <p>Modern responsive landing page design.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
 
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <input type="text" placeholder="Subject" />
-        <textarea placeholder="Message"></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <!-- Contact -->
+    <section id="contact" class="section dark">
+        <h2>Contact</h2>
+        <p>Let’s build something awesome together 🚀</p>
+        <div class="contact-links">
+            <a href="mailto:yourmail@example.com">Email</a>
+            <a href="https://github.com/kafleAmmar6" target="_blank">GitHub</a>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2026 Ammar Kafle. All Rights Reserved.</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        © 2026 Ammar Kafle. All rights reserved.
+    </footer>
 
-  <script src="script.js"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
 </body>
 </html>
