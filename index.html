@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ammar Kafle | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ammar Kafle | Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<h1>Welcome to Ammar Kafle's Portfolio Website</h1>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <span>Ammar Kafle</span>
+    </div>
+    <ul>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <img src="images/mypic.jpeg" alt="Ammar Kafle" class="profile-pic">
+    </div>
+    <div class="header-right">
+      <h1>Hi, I'm Ammar Kafle</h1>
+      <p>Aspiring Developer | Creative Thinker | Problem Solver</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="fade-section">
+    <h2>About Me</h2>
+    <p>Hello! I am Ammar Kafle, a passionate web developer. I specialize in creating modern, professional, and visually appealing websites. I enjoy building projects that not only work flawlessly but also look professional. My aim is to contribute to innovative projects while growing my skills.</p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="fade-section">
+    <h2>Education</h2>
+    <div class="timeline">
+      <div class="timeline-item left">
+        <h3>+2 Level</h3>
+        <span>2018 - 2020</span>
+        <p><strong>College:</strong> ABC Higher Secondary School</p>
+        <p><strong>GPA:</strong> 3.8 / 4.0</p>
+      </div>
+      <div class="timeline-item right">
+        <h3>Bachelor's Degree</h3>
+        <span>2020 - 2024</span>
+        <p><strong>College:</strong> XYZ University</p>
+        <p><strong>GPA:</strong> 3.6 / 4.0</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="fade-section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Y-Hub Project 1</h3>
+        <p>Developed using React and Node.js, focusing on real-time collaboration features. Responsible for frontend and backend integration.</p>
+      </div>
+      <div class="project-card">
+        <h3>Y-Hub Project 2</h3>
+        <p>Created an e-commerce platform using HTML, CSS, and JavaScript. Implemented user authentication and shopping cart functionality.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="fade-section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <h3>HTML & CSS</h3>
+        <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar"><div class="skill-level" style="width:80%"></div></div>
+      </div>
+      <div class="skill">
+        <h3>React</h3>
+        <div class="skill-bar"><div class="skill-level" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <h3>Node.js</h3>
+        <div class="skill-bar"><div class="skill-level" style="width:70%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fade-section">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+      <p>Phone/SMS: <a href="sms:+977123456789">+977 123456789</a></p>
+      <p>Social Media: 
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com" target="_blank">GitHub</a> |
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Ammar Kafle. All Rights Reserved.</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
 </body>
 </html>
